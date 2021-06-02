@@ -1,0 +1,145 @@
+body{
+    background-image: url("back.jpg");
+}
+.cmp-container tbody td a{
+	text-decoration: none;
+    color: honeydew;
+}
+.cmp-container {
+	width:100%;
+}
+table#cmp {
+  font-family: arial, sans-serif;
+  /* border-collapse: collapse;
+  table-layout:auto; 
+  width: 75%;*/
+}
+
+td,th{
+  border: 1px solid black;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:14px;
+  background-color:rgba(72,99,160,0.9);
+}
+th{
+	background-color: rgba(197, 155, 224, 0.8);
+}
+td{
+	color:white;
+}
+h2{
+    text-align: center;
+}
+.cb{
+    width: 80px;
+    height: 20px;
+    font-size: x-large;
+}
+.btn{
+	float:right;
+	margin-right: 20px;
+}	
+.btn a{
+	border:1px solid black;
+	background-color:#2554C7;
+	transition-duration:0.4s;
+	text-decoration: none;
+	padding: 10px;
+	color:white;
+}
+.btn :hover{
+	background-color:#123f34dd;
+	color:#ffffff;
+	border-radius: 5px;
+  	box-shadow:  0 0 5px #33ffff,
+               0 0 10px #66ffff;
+}
+input#search{
+    font-size: x-large;
+}
+#search{
+    width:350px ;
+    height: 30px;
+    border: black solid 3px;
+}
+.srh{
+    padding: 0px 0px 0px 850px; 
+}
+.btn1{
+	background-color:#123f34dd;
+	transition-duration:0.4s;
+	color:white;
+	padding:5px;
+	border:none;
+}
+.btn1:hover{
+	background-color:#2554C7;
+	color:#ffffff;
+	border-radius: 5px;
+  	box-shadow:  0 0 5px #33ffff,
+               0 0 10px #66ffff;
+}
+.disabled{
+	background-color: #cc3333;
+	cursor:not-allowed;
+}
+.sub-menu ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: honeydew;
+    padding:15px;
+}
+.sub-menu ul li
+{
+    background-color:#123f34dd;
+    width: 120px;
+    margin: 15px;
+    cursor:pointer;
+    text-align:center;
+}
+.sub-menu ul li a
+{
+	display:block;
+    text-decoration: none;
+    color: honeydew;
+}
+.sub-menu ul li
+{
+	padding:5px;
+	transition-duration:0.4s;
+}
+.sub-menu ul li:hover,.active
+{
+    background-color: rgba(72,99,160,0.9)!important;
+    border-radius: 5px;
+    font-size: medium;
+ 	box-shadow:  0 0 5px #33ffff,
+               0 0 10px #66ffff;
+}
+.popup{
+	margin-left:50px;
+}
+.popup .label{
+	display:inline-block;
+	width:30%;
+	padding-bottom:5px;
+}
+.popup .data{
+	display:inline-block;
+	width:70%;
+}
+.ui-button{
+	background-color:#123f34dd!important;
+	color:white!important;
+}
+.ui-button:hover{
+	background-color: rgba(72,99,160,0.9)!important;
+    border-radius: 5px;
+    box-shadow:  0 0 5px #33ffff,
+               0 0 10px #66ffff;
+}
+.ui-widget-header{
+	background-color:rgba(72,99,160,0.9);
+}

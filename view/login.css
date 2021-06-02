@@ -1,0 +1,100 @@
+body{
+    background-image: url("employ.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+input[type=text],input[type=password],input[type=email] {
+	padding: 0px 5px;
+	line-height:25px;
+	border: 1px solid #222222;
+	font-size:15px;	
+}
+h1{
+	font-size:100px;
+	color:green;
+}
+.login-wrapper{
+	border:1px solid black;
+	background-color: rgba(72, 99, 160,0.9);
+	margin-left:800px;
+	margin-right:0px;
+	width:500px;
+	height:400px;
+}
+.login_head{
+	border-bottom:1px solid black;
+	background-color:blue;
+	padding: 10px;
+	color:white;
+	text-align:center;
+}
+.login-inner{
+	box-sizing: border-box;
+	width:500px;
+	border-bottom:1px solid black;
+	padding:0;
+	margin:0;
+	text-align:center;
+	display: inline-flex;
+}
+.user_emp{
+	color:white;
+	width:50%;
+	border-right:1px solid black;
+	padding:10px 0px;
+	transition-duration:0.4s;
+}
+.user_cmp{
+	color:white;
+	width:50%;
+	padding:10px 0px;
+	transition-duration:0.4s;
+	border:0;
+}
+.login-inner :hover{
+	background-color:#123f34dd;
+	cursor:pointer;
+}
+.active{
+	background-color:#123f34dd;
+	cursor:pointer;
+}
+label{
+	display: inline-block;
+	width: 120px;
+	color:white;
+}
+.btn{
+	text-align:center;
+}
+.btn input{
+	padding: 5px 10px;
+	border:none;
+	color:white;
+	background-color:#123f34dd;
+	transition-duration:0.4s;
+}	
+
+.btn input:hover,.btn input:active{
+	background-color:#2554C7;
+	color:#ffffff;
+	border-radius: 5px;
+  	box-shadow:  0 0 5px #33ffff,
+               0 0 10px #66ffff;
+}
+.login-employee,.login-cmp,.register-employee,.register-cmp{
+	text-align:center;
+	padding: 10px;
+	padding-top: 50px;
+	height:317px;
+	overflow:auto;
+}
+.imp{
+	color:red;
+}
+.error{
+	color:red;	
+}

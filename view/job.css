@@ -1,0 +1,65 @@
+body{
+    background-image: url("back.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+label {
+	color:white;
+}
+.lbl {
+	/*display: inline-block;*/
+	width: 200px;
+	float:left;
+}
+
+input[type=text],input[type=date],input[type=number],input[type=email] {
+	padding: 0px 5px;
+	line-height:25px;
+	border: 1px solid #222222;
+	font-size:15px;	
+}
+textarea{
+	vertical-align:top;
+}
+.form_wrapper{
+	margin: 10px;
+	border:1px solid black;
+	background-color: rgba(72, 99, 160,0.9);
+	padding: 10px;
+}
+.btn{
+	text-align:center;
+}
+.btn input , .btn a{
+	padding: 5px 10px;
+	border:none;
+	color:white;
+	background-color:#123f34dd;
+	transition-duration:0.4s;
+	text-decoration:none;
+	cursor:pointer;
+}	
+
+.btn input:hover, .btn a:hover{
+	background-color:#2554C7;
+	color:#ffffff;
+	border-radius: 5px;
+  	box-shadow:  0 0 5px #33ffff,
+               0 0 10px #66ffff;
+}
+.error{
+	
+	color: yellow;
+}
+.row {
+	clear: both;
+	padding: 10px;
+}
+.field{
+	float:left;
+}
+.radio label, .radio input{
+	clear:both;
+}

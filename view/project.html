@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style2.css">
+      <link rel="stylesheet" type="text/css" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <nav>
+         <div class="logo">
+            EMPLOYEE DETAILS
+         </div>
+         <label for="btn" class="icon">
+         <span class="fa fa-bars"></span>
+         </label>
+         <input type="checkbox" id="btn">
+         <ul>
+            <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+            <li>
+               <label for="btn-1" class="show"><i class="fa fa-user"></i>About Us</label>
+               <a href="#"><i class="fa fa-user"></i>About Us</a>
+               <input type="checkbox" id="btn-1">
+               <ul>
+                  <li><a href="#"><a href="dbms3.html" target="blank" rel="noopener noreffer">Goals</a></a></li>
+                  <li><a href="#"><a href="dbms3.html" target="blank" rel="noopener noreffer">Mission</a></a></li>
+                  <li><a href="#"><a href="dbms3.html" target="blank" rel="noopener noreffer">Teams</a></a></li>
+               </ul>
+            </li>
+            <li>
+               <label for="btn-2" class="show">Services +</label>
+               <a href="#"><i class="fa fa-clone"></i>Services</a>
+               <input type="checkbox" id="btn-2">
+               <ul>
+                  <li><a href="#"><a href="dbms3.html" target="blank" rel="noopener noreffer">Tutorials</a></a></li>
+                  <li><a href="#"><a href="dbms3.html" target="blank" rel="noopener noreffer">resources<a></a></li>
+                  <li>
+                     <label for="btn-3" class="show">More +</label>
+                     <a href="#">More <span class="fa fa-plus"></span></a>
+                     <input type="checkbox" id="btn-3">
+                     <ul>
+                        <li><a href="#"><a href="dbms3.html" target="blank" rel="noopener noreffer">career</a></a></li>
+                        <li><a href="#"><a href="dbms3.html" target="blank" rel="noopener noreffer">Investors</a></a></li>
+                        <li><a href="#"><a href="dbms3.html" target="blank" rel="noopener noreffer">intenship</a></a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+            <li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
+         </ul>
+      </nav>
+      <script>
+         $('.icon').click(function(){
+           $('span').toggleClass("cancel");
+         });
+      </script>
+   </body>
+</html>
